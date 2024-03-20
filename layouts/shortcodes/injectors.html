@@ -23,11 +23,43 @@
     
     body#top.list.dark {
         background-color: var(--violet-1);
+        animation: changeColorDark linear;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        animation-fill-mode: both;
     }
     body#top.list {
         background-color: var(--laven-1);
+        animation: changeColorLight linear;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        animation-fill-mode: both;
     }
-    
+    @keyframes changeColorDark {
+        0% {
+            background-color: var(--violet-1);
+        }
+        33% {
+            background-color: var(--violet-2);
+        }
+        66% {
+            background-color: var(--violet-3);
+        }
+    }
+    @keyframes changeColorLight {
+        0% {
+            background-color: var(--laven-1);
+        }
+        25% {
+            background-color: var(--body-grey-2);
+        }
+        50% {
+            background-color: var(--laven-1);
+        }
+        75% {
+            background-color: var(--body-grey);
+        }
+    }
 </style>
 <script>
     console.log('injector connected');
