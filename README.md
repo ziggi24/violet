@@ -20,7 +20,10 @@ To render site out to a static page in the `/public` folder use command `hugo`
         - ~~basic layout~~
         - update layout
         - actual hero image/section
-    - 
+    - Gallery Page 
+      - basic layout
+    - About Page 
+      - basic layout
 - update designs: 
     - font choice  
     - updated pictures
@@ -28,24 +31,33 @@ To render site out to a static page in the `/public` folder use command `hugo`
     - accent colors?
 - deploy:
     - ~~setup github pages~~
+    - buy url
     - map url to github pages 
 
+
 Notes from 03-23: 
+- photo 50% text 50% on desktop 
+  - reactive on mobile, probably inline 
+  
+- nav bar - multiple pages
+  
 - Have the day / night mode switch be more playful of a thing, 
 - more showy, maybe light mode is more joker colors and the dark mode is the lavendar 
+- add some kind of fuzzy or scanlines or drippy something   
+
+     
 - find alternate options for the fonts offered: 
     - Ruthie
     - Eater
     - Qwitcher Grypen
+    
 - photos with info blocks, maybe a rotating carousel of photos
-- photo 50% text 50% on desktop 
-  - reactive on mobile, probably inline 
 - Having photos that relate to the sections of the webpage 
 - also a gallery page with all photos on the website 
-- establish nav bar multiple pages 
-- one more in-depth about me page linked on hompage about section 
-- add some kind of fuzzy or scanlines or drippy something 
-- 
+    
+- one more in-depth about me page linked on hompage about section
+
+  
 
 
 
