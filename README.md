@@ -21,9 +21,14 @@ To render site out to a static page in the `/public` folder use command `hugo`
         - update layout
         - actual hero image/section
     - Gallery Page 
-      - basic layout
+      - ~~basic layout~~
+      - update layout
+      - find host for images
+      - add real content
     - About Page 
-      - basic layout
+      - ~~basic layout~~
+      - update layout
+      - Add real content
 - update designs: 
     - font choice  
     - updated pictures
@@ -37,9 +42,9 @@ To render site out to a static page in the `/public` folder use command `hugo`
 
 Notes from 03-23: 
 - photo 50% text 50% on desktop 
-  - reactive on mobile, probably inline 
+  - ~~reactive on mobile, probably inline~~
   
-- nav bar - multiple pages
+- ~~nav bar - multiple pages~~
   
 - Have the day / night mode switch be more playful of a thing, 
 - more showy, maybe light mode is more joker colors and the dark mode is the lavendar 
@@ -53,9 +58,9 @@ Notes from 03-23:
     
 - photos with info blocks, maybe a rotating carousel of photos
 - Having photos that relate to the sections of the webpage 
-- also a gallery page with all photos on the website 
+- ~~also a gallery page with all photos on the website~~ 
     
-- one more in-depth about me page linked on hompage about section
+- ~~one more in-depth about me page linked on hompage about section~~
 
   
 
@@ -65,3 +70,5 @@ Notes from 03-23:
 - [Hugo Docs](https://gohugo.io/documentation/)
 - [Github Pages](https://docs.github.com/en/pages)
 - [Sass](https://sass-lang.com/documentation/)
+- [Font Awesome](https://fontawesome.com/)
+- [Shoelace](https://shoelace.style/)
