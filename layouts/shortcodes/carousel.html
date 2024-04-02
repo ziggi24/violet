@@ -4,55 +4,95 @@
     <sl-carousel-item>
       <img
         alt="The sun shines on the mountains and trees (by Adam Kool on Unsplash)"
-        src="https://picsum.photos/600/400?random=1"
+        src="https://u.cubeupload.com/gaybees/nsfw27.jpg"
         loading="lazy"
       />
     </sl-carousel-item>
     <sl-carousel-item>
       <img
         alt="A waterfall in the middle of a forest (by Thomas Kelly on Unsplash)"
-        src="https://picsum.photos/600/400?random=2"
+        src="https://u.cubeupload.com/gaybees/nsfw26.jpg"
         loading="lazy"
       />
     </sl-carousel-item>
     <sl-carousel-item>
       <img
         alt="The sun is setting over a lavender field (by Leonard Cotte on Unsplash)"
-        src="https://picsum.photos/600/400?random=3"
+        src="https://u.cubeupload.com/gaybees/nsfw25.jpg"
         loading="lazy"
       />
     </sl-carousel-item>
     <sl-carousel-item>
       <img
         alt="A field of grass with the sun setting in the background (by Sapan Patel on Unsplash)"
-        src="https://picsum.photos/600/400?random=4"
+        src="https://u.cubeupload.com/gaybees/nsfw24.jpg"
         loading="lazy"
       />
     </sl-carousel-item>
     <sl-carousel-item>
       <img
         alt="A scenic view of a mountain with clouds rolling in (by V2osk on Unsplash)"
-        src="https://picsum.photos/600/400?random=5"
+        src="https://u.cubeupload.com/gaybees/nsfw23.jpg"
         loading="lazy"
       />
     </sl-carousel-item>
   </sl-carousel>
   <div class="thumbnails">
     <div class="thumbnails__scroller">
-      <img alt="Thumbnail by 1" class="thumbnails__image active" src="https://picsum.photos/600/400?random=1" />
-      <img alt="Thumbnail by 2" class="thumbnails__image" src="https://picsum.photos/600/400?random=2" />
-      <img alt="Thumbnail by 3" class="thumbnails__image" src="https://picsum.photos/600/400?random=3" />
-      <img alt="Thumbnail by 4" class="thumbnails__image" src="https://picsum.photos/600/400?random=4" />
-      <img alt="Thumbnail by 5" class="thumbnails__image" src="https://picsum.photos/600/400?random=5" />
+      <img alt="Thumbnail by 1" class="thumbnails__image active" src="https://u.cubeupload.com/gaybees/nsfw27.jpg" />
+      <img alt="Thumbnail by 2" class="thumbnails__image" src="https://u.cubeupload.com/gaybees/nsfw26.jpg" />
+      <img alt="Thumbnail by 3" class="thumbnails__image" src="https://u.cubeupload.com/gaybees/nsfw25.jpg" />
+      <img alt="Thumbnail by 4" class="thumbnails__image" src="https://u.cubeupload.com/gaybees/nsfw24.jpg" />
+      <img alt="Thumbnail by 5" class="thumbnails__image" src="https://u.cubeupload.com/gaybees/nsfw23.jpg" />
     </div>
   </div>
+
+  <sl-carousel class="vertical" pagination orientation="vertical">
+    <sl-carousel-item>
+      <img
+        alt="The sun shines on the mountains and trees (by Adam Kool on Unsplash)"
+        src="https://u.cubeupload.com/gaybees/nsfw27.jpg"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="A waterfall in the middle of a forest (by Thomas Kelly on Unsplash)"
+        src="https://u.cubeupload.com/gaybees/nsfw26.jpg"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="The sun is setting over a lavender field (by Leonard Cotte on Unsplash)"
+        src="https://u.cubeupload.com/gaybees/nsfw25.jpg"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="A field of grass with the sun setting in the background (by Sapan Patel on Unsplash)"
+        src="https://u.cubeupload.com/gaybees/nsfw24.jpg"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="A scenic view of a mountain with clouds rolling in (by V2osk on Unsplash)"
+        src="https://u.cubeupload.com/gaybees/nsfw23.jpg"
+      />
+    </sl-carousel-item>
+  </sl-carousel>
 
 
   <style>
     .carousel-thumbnails {
-      --slide-aspect-ratio: 3 / 2;
+      --slide-aspect-ratio: 1 / 1;
+      min-height: 800px;
     }
-  
+    #scroll-container {
+      height: 100%;
+      overflow: auto;
+    }
+    .carousel__slides {
+    height: max-content;
+    }
     .thumbnails {
       display: flex;
       justify-content: center;
@@ -84,6 +124,22 @@
   
     .thumbnails__image.active {
       opacity: 1;
+    }
+    .vertical {
+      max-height: 400px;
+    }
+  
+    .vertical::part(base) {
+      grid-template-areas: 'slides slides pagination';
+    }
+  
+    .vertical::part(pagination) {
+      flex-direction: column;
+    }
+  
+    .vertical::part(navigation) {
+      transform: rotate(90deg);
+      display: flex;
     }
   </style>
   

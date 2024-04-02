@@ -47,7 +47,9 @@ Notes from 03-23:
 - ~~nav bar - multiple pages~~
   
 - Have the day / night mode switch be more playful of a thing, 
+  - lamp and sunglasses?
 - more showy, maybe light mode is more joker colors and the dark mode is the lavendar 
+  - light mode setup as the joker palette 
 - add some kind of fuzzy or scanlines or drippy something   
 
      
@@ -57,6 +59,7 @@ Notes from 03-23:
     - Qwitcher Grypen
     
 - photos with info blocks, maybe a rotating carousel of photos
+  - sample carousel setup, will this work for larger amount of photos? 
 - Having photos that relate to the sections of the webpage 
 - ~~also a gallery page with all photos on the website~~ 
     
